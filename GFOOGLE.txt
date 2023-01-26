@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Styling of navigation bar */
+#navdiv{
+  display:flex;
+  width:17%;
+  margin-left: 82%;
+  justify-content: space-around;
+  margin-top: 1%;
+  height:30px;
+}
+
+nav img{
+  margin-top: 5px;
+}
+
+#googleimg{
+  margin-top: 100px;
+}
+/* Removing underline from links*/
+a{
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+button{
+  border-radius: 3px;
+  height:100%;
+  padding:5px 12px;
+  background-color: #4C87E1 ;
+  color:white;
+  border:none;
+}
+.first{
+
+  margin-right: 50%;
+}
+.both{
+  display: flex;
+}
+/* setting up size and border stle of search bar*/
+#maindiv{
+width:35%;
+border-radius: 50px;
+display: flex;
+height:40px;
+border:1px solid lightgrey;
+}
+
+#inputspan{
+  width:80%;
+}
+span{
+  vertical-align: top;
+}
+span:first-child{
+  width:10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+span:last-child{
+  width:10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+
+input{
+  height:100%;
+  width:100%;
+  border: none;
+  padding:0px;
+}
+
+section{
+  display: flex;
+  margin-top: 2%;
+  width:23%;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+section button{
+  padding:10px 12px;
+  background-color: lightgrey;
+  color:black;
+}
+
+ul{
+  display: flex;
+  width: 30%;
+  padding-left: 0px;
+  list-style: none;
+  justify-content: space-around;
+  margin: 6px;
+}
+#Bottomdiv{
+  display:flex;
+  font-size: 12px;
+  margin-top: 3%;
+}
+#Bottomdiv span{
+  width:7%;
+  margin-left: 31%;
+}
+/*When hovered*/
+a:hover{
+  text-decoration: underline;
+}
+button:hover{
+  border: 1px solid gray;
+}
+.last{
+}
+.container{
+  display: flex;
+  background-color: aquamarine;
+}
+.back{
+  margin-left: 75%;
+  padding-top: 0.4cm;
+}
+.extr{
+  padding-top: 10px;
+}
+
+}
+    </style>
+    <meta charset="utf-8">
+    <!-- This link tag is used to link html file with css file -->
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+  </head>
+  <body>
+    <!--Nav tag is used here for navigation bar at top right corner -->
+    <nav>
+      <div class="both">
+      <div id="navdiv">
+        <a href="https://www.google.com/gmail/about/#" class="c">Gmail</a>
+        <a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl" class="c">Images</a>
+        <div class="extr">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+         
+          <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+        </svg></div>
+        
+        <div><button type="submit" name="button">Sign In</button></div>
+      </div>
+
+      </div>
+    </nav>
+    <!--End of navigation -->
+    <!-- Main body of google -->
+    <main>
+      <center>
+        <img src="https://logos-download.com/wp-content/uploads/2016/02/Google_Logo_2015.png" width="20%" height="5%" id="googleimg">
+        <!-- Search bar -->
+        <div>
+          <div id="maindiv">
+            <span><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-download-icons-18.png" width="52%" ></span>
+            <span id="inputspan"><input type="text" name="search"></span>
+            <span><img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png " width="50%"></span>
+          </div>
+        </div>
+        <!--Buttons -->
+        <section>
+          <div><button type="submit">Google Search</button></div>
+          <div><button type="submit">I'm feeling lucky</button></div>
+        </section><br><br><br><br>
+       
+      </center>
+    </main><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+    <div class="last">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp; advertising  &nbsp;&nbsp;&nbsp; bussiness</p></div>
+
+      <p>
+        <div class="back">
+        &nbsp;&nbsp;primary&nbsp;&nbsp;&nbsp;terms&nbsp;&nbsp;&nbsp;setting
+      </p></div></div>
+    </div>
+  
+  </body>
+</html>
